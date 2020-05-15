@@ -1,0 +1,15 @@
+export default {
+    primary: '#0082bc',
+    secondary: '#fbe100',
+    background: '#FAFBFD',
+    deepTextColor: '#005b82',
+    lightTextColor: '#005b82',
+    white:'#ffffff',
+    failed:'#f96f6f',
+    deepSeaBlue:'#00506f',
+    tooBarText:'#00506f',
+    cerulean:'#0082bc',
+    cerulean2:'#008abc',
+    turquoiseBlue:'#059bbf',
+    whiteThree:'#d8d8d8',
+};

@@ -7,23 +7,12 @@
  */
 
 import React from 'react';
-import {SafeAreaView, StyleSheet, View, StatusBar} from 'react-native';
+import AppContainer from './src/screens/AppContainer';
 
-const App: () => React$Node = () => {
+const App= () => {
   return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <View />
-      </SafeAreaView>
-    </>
+      <AppContainer />
   );
 };
-
-const styles = StyleSheet.create({
-  body: {
-    backgroundColor: '#FFFFFF',
-  },
-});
 
 export default App;
