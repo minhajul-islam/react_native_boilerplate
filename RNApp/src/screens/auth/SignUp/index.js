@@ -13,10 +13,10 @@ const SignUp = ({navigation}) => {
         <SafeAreaView>
             <ToolBar
                 ionLeft={Icons.IconBack}
-                title={Strings.signUp.title}
+                title={Strings.SIGN_UP_title}
                 onPressLeft={goBack}
             />
-            <Text>{Strings.signUp.title}</Text>
+            <Text>{Strings.SIGN_UP_title}</Text>
         </SafeAreaView>
     );
 };

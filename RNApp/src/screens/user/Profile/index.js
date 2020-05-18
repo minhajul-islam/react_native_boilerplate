@@ -13,10 +13,10 @@ const Profile = () => {
         <SafeAreaView>
             <ToolBar
                 ionLeft={Icons.IconBack}
-                title={Strings.profile.title}
+                title={Strings.PROFILE_title}
                 onPressLeft={goBack}
             />
-            <Text>{Strings.profile.title}</Text>
+            <Text>{Strings.PROFILE_title}</Text>
         </SafeAreaView>
     );
 };

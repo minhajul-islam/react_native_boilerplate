@@ -7,7 +7,7 @@ const EditProfile = () => {
 
     return (
         <SafeAreaView>
-            <Text>{Strings.editProfile.title}</Text>
+            <Text>{Strings.EDIT_PROFILE_title}</Text>
         </SafeAreaView>
     );
 };

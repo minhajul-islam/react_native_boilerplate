@@ -18,20 +18,20 @@ const Login = ({navigation}) => {
     return (
         <SafeAreaView>
             <ToolBar
-                title={Strings.login.title}
+                title={Strings.LOGIN_title}
                 iconRight={Icons.IconLanguage}
                 onPressRight={goChangeLanguage}
             />
             <LogoSection
-                text={Strings.login.logoSection}
+                text={Strings.LOGIN_logoSection}
                 backgroundColor={Colors.secondary}
             />
             <FormSection
-                text={Strings.login.formSection}
+                text={Strings.LOGIN_formSection}
                 backgroundColor={Colors.failed}
             />
             <SubmitSection
-                text={Strings.login.submitSection}
+                text={Strings.LOGIN_submitSection}
                 backgroundColor={Colors.deepSeaBlue}
                 onPress={goNext}
             />
